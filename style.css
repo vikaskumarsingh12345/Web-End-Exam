@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   margin-left: 200px;
+   margin-right: 200px; 
+}
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    color: black;
+    position: -webkit-sticky;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    column-gap: 0px;
+    border: 2px solid cornsilk;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
+.navbar svg{
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+}
+.navbar .svg1{
+    margin-left: 200px;
+}
+.navbar h2{
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.nav1{
+    margin-left: 250px;
+    margin-top: 20px;
+}
+.nav1:hover{
+    color: blue;
+}
+.nav2{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.nav2:hover{
+    color: blue;
+}
+.nav3{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.nav3:hover{
+    color: blue;
+}
+.logo2{
+    margin-top: 5px;
+    border: 1px solid white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.john{
+    margin-top: 20px;
+}
+
+.para1 svg{
+    /* margin-top: 100px; */
+    height: 20px;
+}
+
+.para11{
+    /* margin-top: 100px; */
+    display: flex;
+}
+
+.grid{
+    margin-top: 100px;
+    display: flex;
+    column-gap: 160px;
+    /* display: grid;
+    border: 2px solid black;
+    grid-template-columns: repeat(4,1fr); */
+}
+
+
+.container{
+    display: grid;
+    height: 1000px;
+    width: 1100px;
+    column-gap: 1px;
+    border: 2px solid black;
+    grid-template-areas: 'main1 main2 main2 main2'
+                         'main1 main2 main2 main2'
+                         'main1 main2 main2 main2'
+                         'main1 main2 main2 main2'
+                         'main1 main2 main2 main2'
+                         'main1 main2 main2 main2'
+                         'main1 main2 main2 main2'
+                         'main1 main2 main2 main2'
+                         'main1 main2 main2 main2'
+                         'main1 main2 main2 main2'
+                         'main1 main2 main2 main2'
+                         'main1 main2 main2 main2'
+                         'main1 main2 main2 main2'
+                         'main1 main2 main2 main2'
+                         'main1 main2 main2 main2'
+                         'main1 main2 main2 main2'
+                         'main1 main2 main2 main2'
+                         'main1 main2 main2 main2'
+                         'main1 main2 main2 main2'
+                         'main1 main2 main2 main2';
+}
+
+.cont1{
+    grid-area: main1;
+    /* height: 200px;
+    width: 200px; */
+    border: 2px solid black;
+    padding: 10px;
+}
+.alert:hover{
+    height: 45px;
+    width: 150px;
+    transition: 1s;
+    background-color: brown;
+}
+.job{
+    height: 30px;
+    margin-left: 15px;
+    padding-left: 20px;
+}
+.alert{
+    height: 40px;
+    width: 140px;
+    margin-left: 20px;
+    padding-left: 5px;
+    background-color: blue;
+    color: white;
+    border-radius: 10%;
+}
+
+.cont2{
+    grid-area: main2;
+    /* height: 200px;
+    width: 200px; */
+    border: 2px solid black;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.cont2svg{
+    height: 50px;
+}
+.but1{
+    color: blue;
+}
+.but2{
+    height: 35px;
+    width: 120px;
+    color: white;
+    background-color: blue;
+    border-radius: 10%;
+}
+.but2:hover{
+    background-color: aqua;
+    transition: 1s;
+    height: 40px;
+    width: 130px;
+}
+.but3{
+    height: 35px;
+    width: 120px;
+    color: black;
+    background-color: gainsboro;
+    border-radius: 10%;
+}
+
+.but3:hover{
+    background-color: darkolivegreen;
+    transition: 1s;
+    height: 40px;
+    width: 130px;
+}
